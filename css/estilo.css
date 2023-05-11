@@ -1,0 +1,312 @@
+/*body*/
+body {
+/*para colocar una imagen de fondo*/	
+		background-image:url("../imagenes/pape1.jpg");
+	
+/*para repetir una imagen de fondo*/	
+		background-repeat: no-repeat;
+
+/*para el tamaño de una imagen de fondo*/	
+		background-size: 100% 100%;
+		
+	/*para el tipo de letra*/	
+		Font-family:MInecraft;
+	/*para el tamaño de letra*/		
+		Font-size: 40px;
+	/*para el color de letra*/		
+		Color: #68085B;
+}
+
+hr{
+	/* border es para la linea tamaño en pixeles, tipo de linea y color*/
+ border: 5px solid #D3D818;	
+ 
+	/*border-radius es para el terminado de las orillas
+	el radio que tendra se expresa en pixeles*/
+ border-radius:5px;	
+}
+
+p{
+	/*para alinear el texto*/
+		text-align: justify;
+	
+	/*para tamaño de letra*/
+		font-size: 35px;
+	
+	/*color de letra*/
+		color:#018FAC;
+	
+	/*color de fondo del texto*/
+		/*background-color:#018FAC;*/
+		
+		font-family:Minecraft;
+}
+
+table,td,tr{
+	
+	border:5px solid;
+	border-color:#D03FFF;
+	border-radius: 7px;
+	text-align: center;
+	background-color:#EAA8FF;	
+}
+
+th{
+	Background-color: #D7C2DE;
+}
+
+ul{
+	font-family:Minecraft;
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+ol{	
+	/*Algunos de los valores de list-style-type son:
+	lower-alpha; lower-roman; upper-alpha; upper-roman;
+	a,b,c,d,e,f  i,ii,iii,iv  A,B,C,D,E,F  I,II,III,IV*/
+		list-style-type: upper-roman;
+		
+		list-style-position:inside;
+		
+		font-family:Minecraft;
+}
+
+.pie{
+	
+	text-align:center;
+	font-size:20px;
+	color:#FA3B12;
+	font-family:Minecraft;
+	font-weight:bold;
+	
+}
+
+.table{
+	text-align:center;
+	font-size:28px;
+	color:red;
+	font-family:Minecraft;
+}
+
+.title{
+	text-align:center;
+	font-size:80px;
+	color:#00AD0D;
+	font-family:titulo;
+	font-weight:bold;
+	
+	
+}
+
+.imgmarquesina{
+	
+	width:500px;
+	height:450px;
+}
+
+.botones{
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	border: 5px solid #835FF1;
+}
+
+.imgtable{
+	
+	width:200px;
+	height:200px;
+}
+.otros{
+	
+	width: 250px;
+	height:300px;
+	border:5px solid #835FF1;
+}
+
+@font-face{
+	/*para el texto general*/
+	font-family:Minecraft;
+	src:url(../fuentes/Minecraft.ttf);
+}
+
+@font-face{
+	/*para el titulo*/
+	font-family:titulo;
+	src:url(../fuentes/MINECRAFTPE.ttf);	
+}
+/*.fuentegoogle{
+	font-family: 'Alkatra', cursive;
+	text-align:center;}*/
+
+/*Uso de Div´s*/
+/*Div o caja para el encabezado*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+
+div#top{
+	width:100%;
+	height:150px;
+	background-image:linear-gradient(#23C4D4,#69FECA);
+}
+
+div#top2{
+	width:100%;
+	height:110px;
+	background-image:linear-gradient(#33FF5B,#23C4D4);
+}
+
+div#principal{
+	margin:auto;
+	margin-top:15px;
+	width:990px;
+	height:645px;
+	background-image:radial-gradient(#7CF0FB,#69FECA,#F5A999);
+}
+
+div#principal2{
+	margin:auto;
+	margin-top:15px;
+	width:1000px;
+	height:1650px;
+	background-image:radial-gradient(#7CF0FB,#69FECA,#F5A999);
+}
+
+div#principal3{
+	margin:auto;
+	margin-top:15px;
+	width:990px;
+	height:1950px;
+	background-image:radial-gradient(#7CF0FB,#69FECA,#F5A999);
+}
+
+div#principal4{
+	color:red;
+	font-size:35px;
+	margin:auto;
+	margin-top:15px;
+	width:900px;
+	height:500px;
+	background-image:radial-gradient(#7CF0FB,#69FECA,#F5A999);
+}
+
+div#principal5{
+	color:red;
+	font-size:35px;
+	margin:auto;
+	margin-top:15px;
+	width:550px;
+	height:450px;
+	background-image:radial-gradient(#7CF0FB,#69FECA,#F5A999);
+}	
+div#piep{
+	margin-top:15px;
+	width:100%;
+	height:150px;
+	background-image:linear-gradient(#69FECA,#23C4D4);
+}
+
+.caja{
+	height:300px;
+	width:200px;
+	background:#F775FE;
+	border:1px solid #FF0404;
+	margin:5px;
+	color:red;
+	text-align:center;
+	display:inline-block;
+}
+
+.caja:hover{
+	box-shadow:0 0;
+	transform:scale(1.3);
+}
+
+.caja-texto{
+	padding-top:2px;
+	font-size:20px;
+	color:red;
+	font-weight:bold;
+}
+
+.text-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;		
+}
+.conteCarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;	
+	
+}
+.itemCarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemCarrouselTarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	
+}
+.itemCarrouselArrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+	
+}
+.itemCarrouselArrows>i:hover{
+	cursor:pointer;	
+}
+.conterCarrouselController{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.conterCarrouselController>a{
+	text-decoration:none;
+	font-size:32px;
+	color:gray;
+}
+.itemCarrouselArrows>a>i{
+	color:white;	
+}
+
+.menu{
+	height:90px;
+	width:90px;
+	Border:3px solid green;
+	margin:5px;
+	display:inline-block;
+	text-align:center;
+
+}
+
+.menu:hover{
+	box-shadow:0 0 10px gold;
+	transform:scale(1.3);
+}
